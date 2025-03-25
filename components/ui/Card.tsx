@@ -34,7 +34,7 @@ export default function Card() {
                     </View>
                     <Text className='text-gray-500 text-sm'>Kepulauan Seribu</Text>
                     <View className='flex-row justify-end'>
-                        <Text className='text-lg font-bold'>Rp 1.500.000</Text>
+                        <Text className='text-lg font-bold text-red-500'>Rp 1.500.000</Text>
                     </View>
                 </View>
             </View>
