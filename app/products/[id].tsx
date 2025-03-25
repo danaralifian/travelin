@@ -1,11 +1,11 @@
-import ProductCarousel from '@/components/ProductCarousel';
+import CarouselProductImage from '@/components/CarouselProductImage';
 import React from 'react';
 import { SafeAreaView, StatusBar, StyleSheet, Text, View } from 'react-native';
 
 const ProductDetail = () => {
     return (
         <SafeAreaView style={{ flex: 1, paddingTop: StatusBar.currentHeight }}>
-            <ProductCarousel />
+            <CarouselProductImage />
         </SafeAreaView>
     );
 }
